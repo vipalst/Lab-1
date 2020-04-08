@@ -1,0 +1,17 @@
+Зайти на сайт mail.ru главная страница и ввести эти команды в консоль
+
+alert ("First Child: " + document.body.firstChild)
+
+alert ("NextSibing: " + document.head.nextSibling)
+
+alert ("lastElemChild: " + document.body.lastElementChild)
+
+alert ("class: " + document.getElementsByClassName('zeropixel'))
+
+alert ("id: " + document.getElementById('slidotype'))
+
+alert ("elemInElem: " + document.querySelector('div.zeropixel img'))
+
+alert ("selector" + document.querySelector('div'))
+
+alert ("псевдокласс: " + document.querySelector(':after'))
